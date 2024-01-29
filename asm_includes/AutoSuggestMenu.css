@@ -1,0 +1,43 @@
+.asmMenu 
+{
+	position: absolute;
+	overflow: auto;
+	z-index:2999999;
+	
+	border: 1px solid lightblue;
+	background: #ffffff;
+	padding: 5;
+	white-space: nowrap;
+}
+	
+				
+.asmMenuItem, .asmSelMenuItem
+{			
+	color: blue;
+	background: #ffffff;
+	cursor: hand;
+	cursor: pointer;
+	z-index:2999999;
+	font-family: Arial, Verdana, helvetica, 'sans serif';
+	font-size: 10pt;
+	width:200px;
+}
+
+
+.asmSelMenuItem
+{			
+	background: lightblue;
+	white-space: nowrap;
+	z-index:2999999;
+}
+
+
+A:link.asmNavigationLink, A:active.asmNavigationLink, A:visited.asmNavigationLink, A:hover.asmNavigationLink
+{
+	color: blue;
+	font-family: Arial, Verdana, helvetica, 'sans serif';
+	font-size: 10pt;
+	margin:0px;
+	text-decoration: none;
+	z-index:2999999;
+}

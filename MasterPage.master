@@ -1,0 +1,103 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_masterpage.master.cdcab7d2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Laboratory Information Management System</title>
+    <link href="style/cssStyleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="../JS/formvalidation.js" type="text/javascript" rel="formvalidation" />
+
+    <script src="../JS/formvalidation.js" type="text/javascript" language="javascript"></script>
+
+   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+ 
+    <%--  <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+    <style type="text/css" >
+     .IE8Fix
+           {
+            z-index: 100;
+           }
+    </style>
+</head>
+<body >
+    <form id="form1" method="post"  runat="server" >
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" EnablePartialRendering="true"  EnablePageMethods="true" runat="server">
+        <Services>
+<asp:ServiceReference Path="~/MasterForms/WebService.asmx" />
+</Services> 
+        </asp:ScriptManager>
+        <table width="100%" style="height: 70%" >
+            <tr  bgcolor="#B87333">
+                <td align="center">
+                    <table style="width: 100%; height: 62px;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="left" >
+                                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White"
+                                    Text="Laboratory Information Management System"></asp:Label>
+                            </td>
+                            <td align="right" valign="bottom">
+                                <asp:Label ID="lblwelcome" CssClass="myBigFont" runat="server" ForeColor="White"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr style="width: 100%;"  bgcolor="#B87333">
+                <td colspan="2" style="height: 5%; width: 100%;" align="left">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <table style="width: 462px; font-weight: bold;" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td>
+                                    <asp:ContentPlaceHolder ID="content_menu" runat="server">
+                                        <asp:Menu ID="LIMSMenus" runat="server" BackColor="#B87333" DynamicHorizontalOffset="2"
+                                            Font-Names="Verdana" Font-Size="14px" ForeColor="#ffffff" StaticSubMenuIndent="14px"
+                                            Orientation="Horizontal" OnMenuItemClick="LIMSMenus_MenuItemClick">
+                                            <%--<StaticSelectedStyle BackColor="#5D7B9D" />
+                                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                                            <DynamicMenuStyle BackColor="#F7F6F3" />
+                                            <DynamicSelectedStyle BackColor="#5D7B9D" />
+                                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                            <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />--%>
+                                            <StaticSelectedStyle BackColor="#B87333" />
+                                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                            <DynamicHoverStyle BackColor="#cd853f" ForeColor="White" />
+                                            <DynamicMenuStyle BackColor="#B87333" CssClass="IE8Fix"/>
+                                            <DynamicSelectedStyle BackColor="#CC7F32" />
+                                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                            <StaticHoverStyle BackColor="#B87333" ForeColor="White" />
+                                        </asp:Menu>
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                        </table>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="top">
+                    <table width="100%" style="height: 690px"  >
+                        <tr>
+                            <td style="width: 90%; height: 350px; background-color: #FFF1C6" valign="top">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr  bgcolor="#CC7F32" >
+                <td valign="middle" align="center" colspan="2" style="font-family: Verdana; font-size: 8pt; height: 25px; color: White;">
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+    </div>
+    <asp:SiteMapDataSource ID="smdAdmin" runat="server" />
+    </form>
+</body>
+</html>

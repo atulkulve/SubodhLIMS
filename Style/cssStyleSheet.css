@@ -1,0 +1,591 @@
+﻿.BodyText
+{
+	font-family: Verdana;
+	font-size: xx-small;
+}
+
+.myBigFont
+{
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+	margin-left: 3px;
+}
+
+.myRedFont
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 3px;
+	color: Red;
+}
+.myGridFont
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.myFont
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.mySmallFont
+{
+	font-family: Verdana;
+	font-size: x-small;
+	color: Black;
+}
+.MasterTopPanel
+{
+	font-family: Verdana;
+	color: #CD853F;
+	font-size: 8pt;
+	text-align:left ;
+	text-decoration: none;
+}
+.myVerySmallFont
+{
+	font-family: Verdana;
+	font-size: xx-small;
+}
+
+BODY
+{
+}
+.link0
+{
+	color: #333333;
+	text-decoration: none;
+}
+.link0:hover
+{
+	color: #0000cc;
+	text-decoration: none;
+}
+.link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.link:hover
+{
+	color: #ff6600;
+	text-decoration: none;
+}
+.link1
+{
+	color: Blue;
+	text-decoration: none;
+}
+.link1:hover
+{
+	color: #ff6600;
+	text-decoration: none;
+}
+.TextBox
+{
+	font-family: Verdana;
+	font-size: x-small;
+}
+
+.LeftMenu
+{
+	font-family: Book Antiqua;
+	font-size: x-small;
+}
+
+.Grid
+{
+	/* filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#fac56b, EndColorStr=#fad388); 	/*background-color:#fa8e04;*/
+}
+.GridRowColor
+{
+	background-color: #EFF3FB;
+	font-size: 9pt;
+}
+.GridAlternateRowColor
+{
+	background-color: White;
+	font-size: 8pt;
+}
+.GridHeader
+{
+	background-color: #8A9FFF;
+	color: White;
+	font-weight: bold;
+	font-family: Verdana;
+	text-align: center;
+	font-size: 9pt;
+}
+.grid-text
+{
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #324B69;
+	text-decoration: none;
+}
+.GridText
+{
+	font-family: Verdana;
+	text-align: center;
+	font-size: 9pt;
+	font-weight: Bold;
+}
+.MenuText
+{
+	color: White;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	cursor: pointer;
+}
+.MenuOnMouseOver
+{
+	color: #ff9001;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+}
+.tabHeading
+{
+	font-family: Verdana;
+	text-align: center;
+	font-size: 12px;
+	font-weight: Bold; /* 	font-family: Verdana, Arial, Helvetica, sans-serif; 	font-size: 11px; 	font-weight: normal; 	color: #324B69; 	text-decoration: none; 	*/
+}
+.sub-head
+{
+	font-family: Verdana;
+	font-size: 4pt;
+	font-weight: normal;
+	color: #333464;
+	text-decoration: none;
+	text-indent: 6pt;
+	padding: 3pt;
+}
+.heading
+{
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: Bold;
+	background-color: #0191C8;
+	height: 20px;
+	text-align: center;
+}
+
+
+.ReportTableCell
+{
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	border-collapse: collapse;
+	font-family: Verdana;
+	font-size: 12px;
+}
+.hiddencol
+{
+	display: none;
+}
+.viscol
+{
+	display: block;
+}
+.description
+{
+	color: Black;
+	font-family: Verdana;
+	font-size: 11px;
+	word-spacing: 1px;
+}
+
+.body
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+}
+
+.sub_Heading /*(Custom Service and Featured Research)*/
+{
+	background-color: #8a9fff;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Verdana;
+}
+
+.LogoText
+{
+	font-family: Times New Roman;
+	font-size: 15pt;
+	font-weight: normal;
+	color: #344e6d;
+}
+
+.More_Link /*(More Link)*/
+{
+	background-color: #8a9fff;
+	color: #ffffff;
+	font-size: 10pt;
+	font-family: Verdana;
+}
+.underlineText
+{
+	font-family: Verdana;
+	text-align: left;
+	font-size: 9px;
+	font-style: normal;
+	color: Blue;
+	padding-left: 2px;
+	text-decoration: underline;
+}
+.text
+{
+	font-family: Verdana;
+	text-align: left;
+	font-size: 9px;
+	font-style: normal;
+	color: #1E438D;
+	padding-left: 2px;
+	text-decoration: none;
+}
+.error
+{
+	background: url(       '../images/error_bg.png' ) no-repeat;
+	padding-left: 100px;
+	color: #b31919;
+	background-color: #fce5e5;
+	border: 2px solid #eaa4a4;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	font: 15px;
+	font-family: Verdana;
+}
+.error_back
+{
+	padding-left: 10px;
+	color: #b31919;
+	background-color: #fce5e5;
+	border: 2px solid #eaa4a4;
+	width: 387px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	height: 104px;
+}
+.normalbutton
+{
+	background-position: bottom right;
+	color: #000;
+	outline: none; /* hide dotted outline in Firefox */
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold;
+}
+
+.Hdrbutton
+{
+	background-color: #336699;
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold; /*background-color:#DBE1E7; color:#000000; border:2pt Navy; 	color:#a52a2a;*/
+	color: White;
+	font-size: 13px;
+	font-style: normal; /*border:	2px solid #99ABBD;*/
+	border: 2px solid #330099;
+	cursor: pointer;
+	width: auto;
+	height: 22px;
+}
+
+
+.botline
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: normal;
+	color: #000000;
+}
+.cursor
+{
+	font-family: Verdana;
+	text-align: left;
+	font-size: 9px;
+	font-style: normal;
+	color: #1E438D;
+	padding-left: 2px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ListBox
+{
+	font-family: Verdana;
+	text-align: left;
+	font-size: 12px;
+	font-style: normal;
+	background-color: #8A9FFF;
+	color: black;
+	padding-left: 2px;
+	text-decoration: none;
+}
+.MyCalendar1 .ajax__calendar_container
+{
+	/* border:1px solid #646464;*/ /*lime; lemonchiffon;:#8a9fff  */
+	background-color: White;
+	color: Gray;
+}
+
+/*added by supriya*/
+.lcdstyle
+{
+	/*Example CSS to create LCD countdown look*/
+	color: Red;
+	font: bold 35px Verdana, Arial, Helvetica, sans-serif, MS Sans Serif;
+	padding: 5px;
+}
+
+.lcdstyle sup
+{
+	/*Example CSS to create LCD countdown look*/
+	font-size: 80%;
+}
+
+
+/* ajax__tab_yuitabview-theme theme (img/yui/sprite.png) */
+.ajax__tab_yuitabview-theme .ajax__tab_header
+{
+	font-family: arial,helvetica,clean,sans-serif;
+	font-size: small;
+	border-bottom: solid 5px #2647a0;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_header .ajax__tab_outer
+{
+	background: url(Images/sprite.png) #d8d8d8 repeat-x;
+	margin: 0px 0.16em 0px 0px;
+	padding: 1px 0px 1px 0px;
+	vertical-align: bottom;
+	border: solid 1px #a3a3a3;
+	border-bottom-width: 0px;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_header .ajax__tab_tab
+{
+	color: #000;
+	padding: 0.35em 0.75em;
+	margin-right: 0.01em;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_hover .ajax__tab_outer
+{
+	background: url(Images/sprite.png) #bfdaff repeat-x left -1300px;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_active .ajax__tab_tab
+{
+	color: #fff;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_active .ajax__tab_outer
+{
+	background: url(Images/sprite.png) #2647a0 repeat-x left -1400px;
+}
+.ajax__tab_yuitabview-theme .ajax__tab_body
+{
+	font-family: verdana,tahoma,helvetica;
+	font-size: 10pt;
+	padding: 0.25em 0.5em;
+	background-color: #edf5ff;
+	border: solid 1px #808080;
+	border-top-width: 0px;
+}
+
+/* Modal Popup for add Vendor in New Bid  */
+
+.modalPopupz
+{
+	background-color: #ffffdd;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 250px;
+}
+.collapsePanel
+{
+	width: 100%;
+	height: 0px;
+	background-color: Transparent;
+	overflow: hidden;
+}
+
+.collapsePanelHeader
+{
+	width: 100%;
+	height: 15px;
+	color: black;
+	background-color: Gray;
+	font-weight: bold;
+	float: none;
+	padding: 5px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.modalPopup
+{
+	background-color: transparent;
+	padding: 1em 6px;
+	z-index:99999; 
+}
+
+.modalPopupInner
+{
+	background-color: #B87333;
+	color: white;
+	font-weight: bold;
+}
+
+.PromptCSS
+{
+	background-color: #FFFF99;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: solid 1px gray;
+	width: 200px;
+}
+.watermarked
+{
+	color: #C0C0C0;
+	font-style: italic;
+}
+/* added by kusum */
+.Tableheading
+{
+	color:White ;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: Bold;
+	background-color: #B87333;
+	height: 20px;
+	text-align: center;
+}
+.Gridheading
+{
+	color:White ;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: Bold;
+	background-color: #cd853f;
+	height: 20px;
+	text-align: center;
+}
+
+.GridRowStyle
+{
+	
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #FFF1C6;
+	height: 20px;
+	text-align: center;
+}
+
+.GridAlternateRowStyle
+{
+	
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #FFCC99;
+	height: 20px;
+	text-align: center;
+}
+
+.tableRow1
+{
+	font-family: Verdana;
+	font-size: 12px;
+	background-color: #FFF1C6;
+	height: 16px;
+	text-align: center;
+}
+.tableRow2
+{
+	font-family: Verdana;
+	font-size: 12px;
+	background-color: #FFCC99;
+	height: 16px;
+	text-align: center;
+}
+.collapsed 
+{
+	display:none;	
+}
+
+.expanded 
+{
+	display:block;
+}
+
+.mainTitleStyle 
+{
+	 font-family:Verdana;
+	 font-size:14px;
+	 font-weight:bold;
+}
+
+th
+{ 
+	text-align:left;
+} 
+
+.updateAndCancelLinks-hidden
+{
+  display:none;
+}
+
+.updateAndCancelLinks-show
+{
+	display:block;
+}
+/*  added by kusum for report*/
+
+.myReportFont
+{
+/*	font-size: 11px; */
+	 font-family:Book Antiqua; 
+	font-size:14px; 
+	
+	
+}
+
+.tdBottomBorder
+{
+/*	font-size: 11px; */
+	border:1;
+	border-bottom-color:Black ;
+	
+}
+.@page { margin: 2cm } /* All margins set to 2cm */
+
+.@pagefirst {
+  margin-top: 2cm    /* Top margin on first page 10cm */
+}
